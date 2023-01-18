@@ -1056,6 +1056,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media screen and (min-width: 58em) {
+
+  .footer-info-container .social-media,
+  .contact-container li {
+    justify-content: start;
+  }
+
   .indicator {
     display: inline-block;
     height: 15px;
