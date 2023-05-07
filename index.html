@@ -1,635 +1,1075 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="Hola bienvenid@ a mi Portafolio, soy Luis Paz, Junior Front-end Developer"
+    />
+    <link rel="canonical" href="https://pazispeace.github.io/portafolio/" />
+    <link rel="icon" type="image/x-icon" href="/assets/favicon/favicon.png" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://pazispeace.github.io/portafolio/assets/favicon/favicon.png"
+    />
+    <link
+      rel="favicon"
+      href="https://pazispeace.github.io/portafolio/assets/favicon/favicon.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="https://pazispeace.github.io/portafolio/assets/favicon/favicon.png"
+    />
+    <meta name="theme-color" content="#2D2D43" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      name="twitter:title"
+      content="Portafolio CV - Luis Paz"
+    />
+    <meta
+      property="og:description"
+      name="twitter:description"
+      content="Hola bienvenid@ a mi Portafolio, soy Luis Paz, Junior Front-end Developer"
+    />
+    <meta
+      property="og:image"
+      name="twitter:image"
+      content="https://pazispeace.github.io/portafolio-cv/assets/hero-image-home.jpg"
+    />
+    <meta
+      property="og:url"
+      name="twitter:url"
+      content="https://pazispeace.github.io/portafolio/"
+    />
 
-  <meta name="description" content="Hola bienvenid@ a mi Portafolio, soy Luis Paz, Junior Front-end Developer">
-  <link rel="canonical" href="https://pazispeace.github.io/portafolio/">
-  <link rel="icon" type="image/x-icon" href="/assets/favicon/favicon.png">
-  <link rel="icon" type="image/x-icon" href="https://pazispeace.github.io/portafolio/assets/favicon/favicon.png">
-  <link rel="favicon" href="https://pazispeace.github.io/portafolio/assets/favicon/favicon.png">
-  <link rel="apple-touch-icon" href="https://pazispeace.github.io/portafolio/assets/favicon/favicon.png">
-  <meta name="theme-color" content="#2D2D43">
-  <meta name="twitter:card" content="summary">
-  <meta property="og:type" content="website">
-  <meta property="og:title" name="twitter:title" content="Portafolio CV - Luis Paz">
-  <meta property="og:description" name="twitter:description"
-    content="Hola bienvenid@ a mi Portafolio, soy Luis Paz, Junior Front-end Developer">
-  <meta property="og:image" name="twitter:image"
-    content="https://pazispeace.github.io/portafolio-cv/assets/hero-image-home.jpg">
-  <meta property="og:url" name="twitter:url" content="https://pazispeace.github.io/portafolio/">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Luis Paz</title>
+  </head>
 
-  <link rel="stylesheet" href="styles.css">
-  <title>Luis Paz</title>
-</head>
-
-<body data-light>
-
-  <header class="header">
-    <div class="logo">
-
-    </div>
-    <nav class="navbar" data-light>
-      <ul class="navbar-nav">
-        <li class="logo">
-          <a href="#" class="nav-link"><img src="assets/logo.svg" alt="" class="logo-img">
-            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
-              viewBox="0 0 24 24">
-              <path fill="currentColor"
-                d="M5.7 17.3q-.275-.275-.275-.7q0-.425.275-.7L9.575 12L5.7 8.1q-.275-.275-.287-.688Q5.4 7 5.7 6.7q.275-.275.7-.275q.425 0 .7.275l4.6 4.6q.15.15.213.325q.062.175.062.375t-.062.375q-.063.175-.213.325l-4.6 4.6q-.275.275-.688.287Q6 17.6 5.7 17.3Zm6.6 0q-.275-.275-.275-.7q0-.425.275-.7l3.875-3.9L12.3 8.1q-.275-.275-.288-.688Q12 7 12.3 6.7q.275-.275.7-.275q.425 0 .7.275l4.6 4.6q.15.15.212.325q.063.175.063.375t-.063.375q-.062.175-.212.325l-4.6 4.6q-.275.275-.687.287q-.413.013-.713-.287Z" />
-            </svg>
-          </a>
-        </li>
-        <li class="nav-item"><a href="#home" class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="1em"
-              height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
-              <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                <path d="M5 12H3l9-9l9 9h-2M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7" />
-                <path d="M9 21v-6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v6" />
-              </g>
-            </svg>
-            <span>Inicio</span></a></li>
-        <li class="nav-item"><a href="#about" class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="1em"
-              height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
-              <path fill="currentColor"
-                d="M22 3H2c-1.09.04-1.96.91-2 2v14c.04 1.09.91 1.96 2 2h20c1.09-.04 1.96-.91 2-2V5a2.074 2.074 0 0 0-2-2m0 16H2V5h20v14m-8-2v-1.25c0-1.66-3.34-2.5-5-2.5c-1.66 0-5 .84-5 2.5V17h10M9 7a2.5 2.5 0 0 0-2.5 2.5A2.5 2.5 0 0 0 9 12a2.5 2.5 0 0 0 2.5-2.5A2.5 2.5 0 0 0 9 7m5 0v1h6V7h-6m0 2v1h6V9h-6m0 2v1h4v-1h-4" />
-            </svg>
-            <span>Acerca</span></a></li>
-        <li class="nav-item"><a href="#portfolio" class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="1em"
-              height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 20 20">
-              <path fill="currentColor"
-                d="M4 5H.78c-.37 0-.74.32-.69.84l1.56 9.99S3.5 8.47 3.86 6.7c.11-.53.61-.7.98-.7H10s-.7-2.08-.77-2.31C9.11 3.25 8.89 3 8.45 3H5.14c-.36 0-.7.23-.8.64C4.25 4.04 4 5 4 5zm4.88 0h-4s.42-1 .87-1h2.13c.48 0 1 1 1 1zM2.67 16.25c-.31.47-.76.75-1.26.75h15.73c.54 0 .92-.31 1.03-.83c.44-2.19 1.68-8.44 1.68-8.44c.07-.5-.3-.73-.62-.73H16V5.53c0-.16-.26-.53-.66-.53h-3.76c-.52 0-.87.58-.87.58L10 7H5.59c-.32 0-.63.19-.69.5c0 0-1.59 6.7-1.72 7.33c-.07.37-.22.99-.51 1.42zM15.38 7H11s.58-1 1.13-1h2.29c.71 0 .96 1 .96 1z" />
-            </svg>
-            <span>Portafolio</span></a></li>
-        <li class="nav-item"><a href="#contact" class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="1em"
-              height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
-              <path fill="currentColor"
-                d="M9 14q0-3.75 2.625-6.375T18 5v2q-2.925 0-4.962 2.037Q11 11.075 11 14Zm4 0q0-2.075 1.463-3.538Q15.925 9 18 9v2q-1.25 0-2.125.875T15 14ZM5 6q-.825 0-1.413-.588Q3 4.825 3 4t.587-1.413Q4.175 2 5 2q.825 0 1.412.587Q7 3.175 7 4q0 .825-.588 1.412Q5.825 6 5 6Zm-3 5V8.5q0-.625.438-1.062Q2.875 7 3.5 7h3q1.125 0 1.938-.713Q9.25 5.575 9.45 4.5h2q-.15 1.5-1.1 2.65Q9.4 8.3 8 8.75V11Zm17 6q-.825 0-1.413-.587Q17 15.825 17 15q0-.825.587-1.413Q18.175 13 19 13q.825 0 1.413.587Q21 14.175 21 15q0 .825-.587 1.413Q19.825 17 19 17Zm-3 5v-2.25q-1.4-.45-2.35-1.6q-.95-1.15-1.1-2.65h2q.2 1.075 1.012 1.788q.813.712 1.938.712h3q.625 0 1.062.438q.438.437.438 1.062V22Z" />
-            </svg><span>Contacto</span></a></li>
-        <li class="nav-item"><a class="nav-link">
-            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32">
-              <path fill="currentColor"
-                d="M16 28h-3c-3.9 0-7-3.1-7-7v-4h2v4c0 2.8 2.2 5 5 5h3v2zm12 2h2.2l-4.6-11h-2.2l-4.6 11H21l.8-2h5.3l.9 2zm-5.3-4l1.8-4.4l1.8 4.4h-3.6zM28 15h-2v-4c0-2.8-2.2-5-5-5h-4V4h4c3.9 0 7 3.1 7 7v4zM14 5V3H9V1H7v2H2v2h8.2c-.2.9-.8 2.5-2.2 4c-.6-.7-1.1-1.4-1.4-2H4.3c.4 1 1.1 2.2 2.1 3.3c-.8.7-2 1.3-3.4 1.8l.7 1.9c1.8-.7 3.2-1.5 4.3-2.3c1.1.9 2.5 1.7 4.3 2.3l.7-1.9c-1.4-.5-2.6-1.2-3.5-1.8c1.9-2 2.5-4.1 2.7-5.3H14z" />
-            </svg><span>Idioma</span></a></li>
-        <li class="nav-item">
-          <a class="nav-link theme-switcher" data-theme="dark">
-            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
-              viewBox="0 0 24 24">
-              <path fill="currentColor"
-                d="M7.5 2c-1.79 1.15-3 3.18-3 5.5s1.21 4.35 3.03 5.5C4.46 13 2 10.54 2 7.5A5.5 5.5 0 0 1 7.5 2m11.57 1.5l1.43 1.43L4.93 20.5L3.5 19.07L19.07 3.5m-6.18 2.43L11.41 5L9.97 6l.42-1.7L9 3.24l1.75-.12l.58-1.65L12 3.1l1.73.03l-1.35 1.13l.51 1.67m-3.3 3.61l-1.16-.73l-1.12.78l.34-1.32l-1.09-.83l1.36-.09l.45-1.29l.51 1.27l1.36.03l-1.05.87l.4 1.31M19 13.5a5.5 5.5 0 0 1-5.5 5.5c-1.22 0-2.35-.4-3.26-1.07l7.69-7.69c.67.91 1.07 2.04 1.07 3.26m-4.4 6.58l2.77-1.15l-.24 3.35l-2.53-2.2m4.33-2.7l1.15-2.77l2.2 2.54l-3.35.23m1.15-4.96l-1.14-2.78l3.34.24l-2.2 2.54M9.63 18.93l2.77 1.15l-2.53 2.19l-.24-3.34Z" />
-            </svg>
-            <span>Themify</span>
-          </a>
-        </li>
-      </ul>
-
-    </nav>
-  </header>
-
-  <main>
-    <!-- HOME -->
-
-    <section id="home" class="home section container container-lg full-screen full-lg-screen" data-section data-light>
-      <div class="profile-img">
-        <img src="assets/profile.png" alt="">
-      </div>
-      <div class="presentation text-center">
-        <div class="wrapper-txt">
-          <p>Hola, soy</p>
-          <h1>Luis Paz</h1>
-          <h2 class="dynamic-txt gradient-txt">Desarrollador Web</h2>
-        </div>
-        <div class="contact-container">
-          <ul class="contact">
-            <li>
-              <svg width="20" height="16" xmlns="http://www.w3.org/2000/svg">
+  <body data-light>
+    <header class="header">
+      <div class="logo"></div>
+      <nav class="navbar" data-light>
+        <ul class="navbar-nav">
+          <li class="logo">
+            <a href="#" class="nav-link"
+              ><img src="assets/logo.svg" alt="" class="logo-img" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="1em"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
                 <path
-                  d="M18 0H2C.9 0 0 .9 0 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2zm0 14h-2V5.2L10 9 4 5.2V14H2V2h1.2L10 6.2 16.8 2H18v12z"
-                  fill="#FFF" fill-rule="evenodd" />
-              </svg>
-              <a href="mailto:pazispeace@outlook.com">pazispeace@outlook.com</a>
-            </li>
-            <li>
-              <svg width="18" height="18" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M17 12.5c-1.2 0-2.4-.2-3.6-.6-.3-.1-.7 0-1 .2l-2.2 2.2c-2.8-1.4-5.1-3.8-6.6-6.6l2.2-2.2c.3-.3.4-.7.2-1-.3-1.1-.5-2.3-.5-3.5 0-.6-.4-1-1-1H1C.4 0 0 .4 0 1c0 9.4 7.6 17 17 17 .6 0 1-.4 1-1v-3.5c0-.6-.4-1-1-1zM16 9h2c0-5-4-9-9-9v2c3.9 0 7 3.1 7 7zm-4 0h2c0-2.8-2.2-5-5-5v2c1.7 0 3 1.3 3 3z"
-                  fill="#FFF" fill-rule="evenodd" />
-              </svg>
-              <a href="tel:3132861653">+573132861653</a>
-            </li>
-          </ul>
-          <ul class="social">
-            <li>
-              <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/pazispeace/">
-
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M19 3C19.5304 3 20.0391 3.21071 20.4142 3.58579C20.7893 3.96086 21 4.46957 21 5V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H19ZM18.5 18.5V13.2C18.5 12.3354 18.1565 11.5062 17.5452 10.8948C16.9338 10.2835 16.1046 9.94 15.24 9.94C14.39 9.94 13.4 10.46 12.92 11.24V10.13H10.13V18.5H12.92V13.57C12.92 12.8 13.54 12.17 14.31 12.17C14.6813 12.17 15.0374 12.3175 15.2999 12.5801C15.5625 12.8426 15.71 13.1987 15.71 13.57V18.5H18.5ZM6.88 8.56C7.32556 8.56 7.75288 8.383 8.06794 8.06794C8.383 7.75288 8.56 7.32556 8.56 6.88C8.56 5.95 7.81 5.19 6.88 5.19C6.43178 5.19 6.00193 5.36805 5.68499 5.68499C5.36805 6.00193 5.19 6.43178 5.19 6.88C5.19 7.81 5.95 8.56 6.88 8.56ZM8.27 18.5V10.13H5.5V18.5H8.27Z"
-                    fill="white" />
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a rel="noreferrer" target="_blank" href="https://github.com/Pazispeace">
-
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M12 2C10.6868 2 9.38642 2.25866 8.17317 2.7612C6.95991 3.26375 5.85752 4.00035 4.92893 4.92893C3.05357 6.8043 2 9.34784 2 12C2 16.42 4.87 20.17 8.84 21.5C9.34 21.58 9.5 21.27 9.5 21V19.31C6.73 19.91 6.14 17.97 6.14 17.97C5.68 16.81 5.03 16.5 5.03 16.5C4.12 15.88 5.1 15.9 5.1 15.9C6.1 15.97 6.63 16.93 6.63 16.93C7.5 18.45 8.97 18 9.54 17.76C9.63 17.11 9.89 16.67 10.17 16.42C7.95 16.17 5.62 15.31 5.62 11.5C5.62 10.39 6 9.5 6.65 8.79C6.55 8.54 6.2 7.5 6.75 6.15C6.75 6.15 7.59 5.88 9.5 7.17C10.29 6.95 11.15 6.84 12 6.84C12.85 6.84 13.71 6.95 14.5 7.17C16.41 5.88 17.25 6.15 17.25 6.15C17.8 7.5 17.45 8.54 17.35 8.79C18 9.5 18.38 10.39 18.38 11.5C18.38 15.32 16.04 16.16 13.81 16.41C14.17 16.72 14.5 17.33 14.5 18.26V21C14.5 21.27 14.66 21.59 15.17 21.5C19.14 20.16 22 16.42 22 12C22 10.6868 21.7413 9.38642 21.2388 8.17317C20.7362 6.95991 19.9997 5.85752 19.0711 4.92893C18.1425 4.00035 17.0401 3.26375 15.8268 2.7612C14.6136 2.25866 13.3132 2 12 2Z"
-                    fill="white" />
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a rel="noreferrer" target="_blank" href="https://twitter.com/pazispeace">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M22.46 6C21.69 6.35 20.86 6.58 20 6.69C20.88 6.16 21.56 5.32 21.88 4.31C21.05 4.81 20.13 5.16 19.16 5.36C18.37 4.5 17.26 4 16 4C13.65 4 11.73 5.92 11.73 8.29C11.73 8.63 11.77 8.96 11.84 9.27C8.28004 9.09 5.11004 7.38 3.00004 4.79C2.63004 5.42 2.42004 6.16 2.42004 6.94C2.42004 8.43 3.17004 9.75 4.33004 10.5C3.62004 10.5 2.96004 10.3 2.38004 10V10.03C2.38004 12.11 3.86004 13.85 5.82004 14.24C5.19077 14.4122 4.53013 14.4362 3.89004 14.31C4.16165 15.1625 4.69358 15.9084 5.41106 16.4429C6.12854 16.9775 6.99549 17.2737 7.89004 17.29C6.37367 18.4904 4.49404 19.1393 2.56004 19.13C2.22004 19.13 1.88004 19.11 1.54004 19.07C3.44004 20.29 5.70004 21 8.12004 21C16 21 20.33 14.46 20.33 8.79C20.33 8.6 20.33 8.42 20.32 8.23C21.16 7.63 21.88 6.87 22.46 6Z"
-                    fill="white" />
-                </svg>
-              </a>
-
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- STATS -->
-
-    <section class="stats-container section container container-lg" data-section data-light>
-      <article class="stats">
-        <figure class="projects">
-          <svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M26.75 8H11.75C10.7554 8 9.80161 8.39509 9.09835 9.09835C8.39509 9.80161 8 10.7554 8 11.75V39.25C8 40.2446 8.39509 41.1984 9.09835 41.9016C9.80161 42.6049 10.7554 43 11.75 43H49.25C50.2446 43 51.1984 42.6049 51.9016 41.9016C52.6049 41.1984 53 40.2446 53 39.25V26.75M30.5 43V53"
-              stroke="#FEFEFE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M40.5 8L35.5 13L40.5 18M48 8L53 13L48 18M18 53H43" stroke="#FEFEFE" stroke-width="4"
-              stroke-linecap="round" stroke-linejoin="round" />
-          </svg>
-          <figcaption>
-            <strong>+25 Proyectos</strong>
-            <p>Completados</p>
-          </figcaption>
-        </figure>
-        <figure class="support">
-          <svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M47.58 37.515C48.4696 35.3546 48.9525 33.0417 48.9525 30.5C48.9525 28.67 48.673 26.9162 48.19 25.2896C46.538 25.6708 44.8096 25.8742 43.005 25.8742C39.3094 25.8781 35.6669 24.9935 32.3848 23.2949C29.1026 21.5963 26.2769 19.1335 24.1459 16.1142C21.8662 21.63 17.5658 26.0668 12.1238 28.5175C12.0221 29.1529 12.0221 29.8392 12.0221 30.5C12.0221 32.9266 12.5001 35.3293 13.4287 37.5712C14.3573 39.813 15.7183 41.85 17.4342 43.5659C20.8995 47.0311 25.5994 48.9779 30.5 48.9779C33.1688 48.9779 35.7359 48.3933 38.0488 47.3512C39.4975 50.1217 40.1584 51.4942 40.1075 51.4942C35.9392 52.8921 32.7113 53.5783 30.5 53.5783C24.3492 53.5783 18.478 51.1637 14.1571 46.8175C11.529 44.1975 9.57544 40.9793 8.46379 37.4387H5.08337V25.8742H7.85379C8.69315 21.7885 10.6229 18.0062 13.4383 14.9287C16.2537 11.8512 19.8497 9.59328 23.8448 8.39451C27.8398 7.19573 32.0849 7.10083 36.1295 8.11988C40.1741 9.13892 43.8674 11.2339 46.8175 14.1825C50.0206 17.3729 52.2054 21.4418 53.0955 25.8742H55.9167V37.4387H55.7642L46.7159 45.75L33.245 44.225V39.9804H45.5213L47.58 37.515ZM23.5613 29.9154C24.3238 29.9154 25.0609 30.2204 25.5946 30.7796C26.131 31.3204 26.432 32.0512 26.432 32.8129C26.432 33.5746 26.131 34.3055 25.5946 34.8462C25.0609 35.38 24.3238 35.685 23.5613 35.685C21.96 35.685 20.6638 34.4142 20.6638 32.8129C20.6638 31.2117 21.96 29.9154 23.5613 29.9154ZM37.4134 29.9154C39.0146 29.9154 40.2855 31.2117 40.2855 32.8129C40.2855 34.4142 39.0146 35.685 37.4134 35.685C35.8121 35.685 34.5159 34.4142 34.5159 32.8129C34.5159 32.0444 34.8211 31.3075 35.3645 30.7641C35.9079 30.2207 36.6449 29.9154 37.4134 29.9154Z"
-              fill="#FEFEFE" />
-          </svg>
-          <figcaption>
-            <strong>Soporte</strong>
-            <p>Online 16/7</p>
-          </figcaption>
-        </figure>
-        <figure class="clean-code">
-          <svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M26.75 8H11.75C10.7554 8 9.80161 8.39509 9.09835 9.09835C8.39509 9.80161 8 10.7554 8 11.75V39.25C8 40.2446 8.39509 41.1984 9.09835 41.9016C9.80161 42.6049 10.7554 43 11.75 43H49.25C50.2446 43 51.1984 42.6049 51.9016 41.9016C52.6049 41.1984 53 40.2446 53 39.25V26.75M30.5 43V53"
-              stroke="#FEFEFE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M40.5 8L35.5 13L40.5 18M48 8L53 13L48 18M18 53H43" stroke="#FEFEFE" stroke-width="4"
-              stroke-linecap="round" stroke-linejoin="round" />
-          </svg>
-          <figcaption>
-            <strong>Escalable</strong>
-            <p>Buenas prácticas</p>
-          </figcaption>
-        </figure>
-      </article>
-    </section>
-
-    <!-- ABOUT -->
-
-    <section id="about" class="about-container section container container-lg full-lg-screen" data-section data-light>
-      <article class="about">
-        <img src="assets/about-img.svg" alt="">
-        <div class="about-content">
-          <h2 class="section-title">Acerca de mí</h2>
-          <p>Soy un desarrollador frontEnd autodidacta. Empático, responsable, con capacidad de escucha, compromiso y
-            trabajo en
-            equipo.</p>
-          <p>Colaboro en proyectos como Freelance FrontEnd, lo cual disfruto mucho.</p>
-          <p>Así como gozo llevar a cabo la maquetación e interactividad de interfaces web (sobre todo con CSS), así
-            como
-            la optimización,
-            para el buen rendimiento de carga de sitios web.</p>
-          <a class="curriculum" href="#" target="_blank" rel="noreferrer">Descargar CV</a>
-        </div>
-      </article>
-    </section>
-
-    <!-- SOFT SKILLS -->
-
-    <section class="soft-skills-container section container container-lg full-lg-screen" data-section data-light>
-      <h2 class="section-title">Habilidades blandas</h2>
-      <div class="skills-wrapper">
-        <figure data-one>
-          <img src="assets/time.svg" alt="">
-          <figcaption>Capacidad para administrar el tiempo</figcaption>
-        </figure>
-        <figure data-two>
-          <img src="assets/thinking.svg" alt="">
-          <figcaption>Capacidad para pensar racional y reflexivamente</figcaption>
-        </figure>
-        <figure data-three>
-          <img src="assets/productivity.svg" alt="">
-          <figcaption>Saber adaptarme y ser flexible cuando surgen nuevos retos</figcaption>
-        </figure>
-        <figure data-four>
-          <img src="assets/reading.svg" alt="">
-          <figcaption>Deseo constante de aprender cosas nuevas</figcaption>
-        </figure>
-      </div>
-
-    </section>
-
-    <!-- tech skills -->
-
-    <section id="tech" class="tech-skills-container section container container-lg" data-section data-light>
-      <h2 class="section-title">Habilidades técnicas</h2>
-      <div class="skills">
-        <div class=""><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#E34F26">
-            <title>HTML5</title>
-            <path
-              d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z">
-            </path>
-          </svg><span>HTML5</span></div>
-        <div class=""><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#1572B6">
-            <title>CSS3</title>
-            <path
-              d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z">
-            </path>
-          </svg><span>CSS3</span></div>
-        <div class=""><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#F7DF1E">
-            <title>JavaScript</title>
-            <path
-              d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z">
-            </path>
-          </svg><span>JavaScript</span></div>
-        <div class=""><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#7952B3">
-            <title>Bootstrap</title>
-            <path
-              d="M11.77 11.24H9.956V8.202h2.152c1.17 0 1.834.522 1.834 1.466 0 1.008-.773 1.572-2.174 1.572zm.324 1.206H9.957v3.348h2.231c1.459 0 2.232-.585 2.232-1.685s-.795-1.663-2.326-1.663zM24 11.39v1.218c-1.128.108-1.817.944-2.226 2.268-.407 1.319-.463 2.937-.42 4.186.045 1.3-.968 2.5-2.337 2.5H4.985c-1.37 0-2.383-1.2-2.337-2.5.043-1.249-.013-2.867-.42-4.186-.41-1.324-1.1-2.16-2.228-2.268V11.39c1.128-.108 1.819-.944 2.227-2.268.408-1.319.464-2.937.42-4.186-.045-1.3.968-2.5 2.338-2.5h14.032c1.37 0 2.382 1.2 2.337 2.5-.043 1.249.013 2.867.42 4.186.409 1.324 1.098 2.16 2.226 2.268zm-7.927 2.817c0-1.354-.953-2.333-2.368-2.488v-.057c1.04-.169 1.856-1.135 1.856-2.213 0-1.537-1.213-2.538-3.062-2.538h-4.16v10.172h4.181c2.218 0 3.553-1.086 3.553-2.876z">
-            </path>
-          </svg><span>Bootstrap</span></div>
-        <div class=""><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#181717">
-            <title>GitHub</title>
-            <path
-              d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12">
-            </path>
-          </svg><span>Github</span></div>
-      </div>
-
-    </section>
-    <!-- Portfolio -->
-
-    <section id="portfolio" class="portfolio-container section container container-lg full-lg-screen" data-section
-      data-light>
-      <h2 class="text-center">Portafolio</h2>
-      <p class="text-center">Últimos proyectos</p>
-      <div class="cards-container grid-fluid">
-        <article class="card" style="--card-img: url('assets/websites/country-desktop-preview.jpg');">
-          <div class="card-content">
-            <h2 class="card-title">Country search</h2>
-            <p>Para la creación de esta web he hecho consumo a una API REST llamada RestCountries, logrando esto con
-              solo
-              vanilla JS
-              y CSS</p>
-            <div class="tech-container">
-              <ul class="card-tech">
-                <li>Html</li>
-                <li>Css</li>
-                <li>JavaScript</li>
-                <li>API</li>
-              </ul>
-              <a class="card-btn text-center"
-                href="https://pazispeace.github.io/FrontendMentor-Challenges/rest-countries-api-with-color-theme-switcher-master/"
-                target="_blank" referrerpolicy="">Visitar
-                sitio
-
-                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
-                  viewBox="0 0 256 256">
-                  <path fill="#5454c5"
-                    d="m224.5 136.5l-72 72a12.1 12.1 0 0 1-17 0a12 12 0 0 1 0-17L187 140H40a12 12 0 0 1 0-24h147l-51.5-51.5a12 12 0 0 1 17-17l72 72a12 12 0 0 1 0 17Z" />
-                </svg>
-              </a>
-            </div>
-
-          </div>
-        </article>
-        <article class="card" style="--card-img: url('assets/websites/clipboard-desktop-preview.jpg');">
-          <div class="card-content">
-            <h2 class="card-title">Clipboard page</h2>
-            <p>Clipboard Landing Page, usando una variedad de técnicas con CSS para lograr el layout</p>
-            <div class="tech-container">
-
-              <ul class=" card-tech">
-                <li>Html</li>
-                <li>Css</li>
-              </ul>
-              <a class="card-btn text-center"
-                href="https://pazispeace.github.io/FrontendMentor-Challenges/clipboard-landing-page-master/"
-                target="_blank" rel="noreferrer">Visitar sitio
-
-                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
-                  viewBox="0 0 256 256">
-                  <path fill="#5454c5"
-                    d="m224.5 136.5l-72 72a12.1 12.1 0 0 1-17 0a12 12 0 0 1 0-17L187 140H40a12 12 0 0 1 0-24h147l-51.5-51.5a12 12 0 0 1 17-17l72 72a12 12 0 0 1 0 17Z" />
-                </svg>
-              </a>
-            </div>
-          </div>
-        </article>
-        <article class="card" style="--card-img: url('assets/websites/chat-illustration-desktop-preview.jpg');">
-          <div class="card-content">
-            <h2 class="card-title">Chat APP CSS</h2>
-            <p>Ilustración interactiva usando solo CSS y técnicas de posicionamiento absoluto</p>
-            <div class="tech-container">
-              <ul class=" card-tech">
-                <li>Html</li>
-                <li>Css</li>
-              </ul>
-              <a class="card-btn text-center"
-                href="https://pazispeace.github.io/FrontendMentor-Challenges/chat-app-css-illustration-master/"
-                target="_blank" rel="noreferrer">Visitar sitio
-
-                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
-                  viewBox="0 0 256 256">
-                  <path fill="#5454c5"
-                    d="m224.5 136.5l-72 72a12.1 12.1 0 0 1-17 0a12 12 0 0 1 0-17L187 140H40a12 12 0 0 1 0-24h147l-51.5-51.5a12 12 0 0 1 17-17l72 72a12 12 0 0 1 0 17Z" />
-                </svg>
-              </a>
-            </div>
-
-          </div>
-        </article>
-      </div>
-
-    </section>
-
-    <!-- SERVICIOS -->
-
-    <section id="services" class="services-container section" data-section data-light>
-      <h2>¿Qué te ofrezco?</h2>
-      <div class="services container container-lg">
-
-        <article class="service-card">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-            <path fill="white"
-              d="M20,3H4C2.897,3,2,3.897,2,5v14c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2V5C22,3.897,21.103,3,20,3z M4,19V7h16 l0.002,12H4z" />
-            <path fill="white"
-              d="M9.293 9.293L5.586 13 9.293 16.707 10.707 15.293 8.414 13 10.707 10.707zM14.707 9.293L13.293 10.707 15.586 13 13.293 15.293 14.707 16.707 18.414 13z" />
-          </svg>
-          <h3>Programación Web</h3>
-          <p>Desarrollo sitios para plataformas Web. Te ayudo a construir tu proyecto de principio a fin: Frontend.</p>
-        </article>
-        <article class="service-card">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-            <path fill="white"
-              d="M20,3H7C5.897,3,5,3.897,5,5v2H4C2.897,7,2,7.897,2,9v10c0,1.103,0.897,2,2,2h6c1.103,0,2-0.897,2-2h8c1.103,0,2-0.897,2-2 V5C22,3.897,21.103,3,20,3z M6,9h4l-0.003,9H4V9H6z M12,17V9c0-1.103-0.897-2-2-2H7V5h11v12H12z" />
-          </svg>
-          <h3>Diseño Web</h3>
-          <p>Prototipo y maqueto tus diseños estáticos y los convierto en increíbles sitios web responsivos, óptimos y
-            accesibles.</p>
-        </article>
-      </div>
-    </section>
-
-
-    <!-- TESTIMONIOS -->
-
-
-    <section id="testimonials" class="testimonials-container section container container-lg full-lg-screen" data-section
-      data-light>
-      <h2 class="text-center">Testimonios</h2>
-      <!-- container -->
-      <div class="testimonial">
-        <div class="slides-indicator">
-          <span class="indicator active"></span><span class="indicator"></span><span class="indicator"></span>
-        </div>
-        <!-- testimonial -->
-        <div class="slides-container">
-          <div class="slide-row text-center" id="slide">
-            <div class="slide-col">
-              <article class="slide-text">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quaerat perferendis nesciunt aperiam
-                  harum rem pariatur dignissimos </p>
-                <h3>Sarah</h3>
-                <p>Lorem Inc.</p>
-              </article>
-              <div class="slide-img">
-                <img src="assets/profile.jpg" alt="">
-              </div>
-            </div>
-            <div class="slide-col">
-              <article class="slide-text">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quaerat perferendis nesciunt aperiam
-                  harum rem pariatur dignissimos </p>
-                <h3>Roberth</h3>
-                <p>Lorem Inc.</p>
-              </article>
-              <div class="slide-img">
-                <img src="assets/profile.jpg" alt="">
-              </div>
-            </div>
-            <div class="slide-col">
-              <article class="slide-text">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quaerat perferendis nesciunt aperiam
-                  harum rem pariatur dignissimos </p>
-                <h3>
-                  Alejandro
-                </h3>
-                <p>Lorem Inc.</p>
-              </article>
-              <div class="slide-img">
-                <img src="assets/profile.jpg" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contacto -->
-
-    <section id="contact" class="interest-container section" data-light>
-      <div class="interest container container-lg" data-section>
-        <h2>¿Interesado?</h2>
-        <p>Estoy disponible para proyectos freelance como desarrollador FrontEnd
-        </p>
-      </div>
-      <article class="contact-cards">
-        <aside class="contact-card ">
-          <svg width="37" height="28" viewBox="0 0 37 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M18.5 7.3125L7 16.8125V27C7 27.5625 7.4375 28 8 28H15C15.5 28 15.9375 27.5625 15.9375 27V21C15.9375 20.5 16.4375 20 16.9375 20H20.9375C21.5 20 21.9375 20.5 21.9375 21V27C21.9375 27.5625 22.4375 28 22.9375 28H30C30.5 28 31 27.5625 31 27V16.75L19.4375 7.3125C19.3125 7.1875 19.125 7.125 19 7.125C18.8125 7.125 18.625 7.1875 18.5 7.3125ZM36.6875 13.75L31.5 9.4375V0.8125C31.5 0.375 31.125 0.0625 30.75 0.0625H27.25C26.8125 0.0625 26.5 0.375 26.5 0.8125V5.3125L20.875 0.6875C20.375 0.3125 19.6875 0.0625 19 0.0625C18.25 0.0625 17.5625 0.3125 17.0625 0.6875L1.25 13.75C1.0625 13.875 0.9375 14.125 0.9375 14.3125C0.9375 14.5 1.0625 14.6875 1.125 14.8125L2.75 16.75C2.875 16.9375 3.0625 17 3.3125 17C3.5 17 3.6875 16.9375 3.8125 16.8125L18.5 4.75C18.625 4.625 18.8125 4.5625 19 4.5625C19.125 4.5625 19.3125 4.625 19.4375 4.75L34.125 16.8125C34.25 16.9375 34.4375 17 34.625 17C34.875 17 35.0625 16.9375 35.1875 16.75L36.8125 14.8125C36.9375 14.6875 37 14.5 37 14.3125C37 14.125 36.875 13.875 36.6875 13.75Z">
-            </path>
-          </svg>
-          <h5>UBICACIÓN</h5>
-          <small>Colombia, Bucaramanga Santander</small>
-        </aside>
-        <aside class="contact-card ">
-          <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M31.8125 1.5625L25.3125 0.0625C24.625 -0.125 23.875 0.25 23.5625 0.9375L20.5625 7.9375C20.3125 8.5625 20.5 9.25 21 9.6875L24.8125 12.8125C22.5625 17.5625 18.625 21.5625 13.75 23.875L10.625 20.0625C10.1875 19.5625 9.5 19.375 8.875 19.625L1.875 22.625C1.1875 22.9375 0.875 23.6875 1 24.375L2.5 30.875C2.6875 31.5625 3.25 32 4 32C20 32 33 19.0625 33 3C33 2.3125 32.5 1.75 31.8125 1.5625Z">
-            </path>
-          </svg>
-          <h5>TELÉFONO</h5>
-          <small><a href="tel:3132861653">(+57) 3132861653</a></small>
-        </aside>
-        <aside class="contact-card ">
-          <svg width="32" height="24" viewBox="0 0 32 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M31.375 7.9375C29.9375 9.0625 28.125 10.4375 21.75 15.0625C20.5 16 18.1875 18.0625 16 18.0625C13.75 18.0625 11.5 16 10.1875 15.0625C3.8125 10.4375 2 9.0625 0.5625 7.9375C0.3125 7.75 0 7.9375 0 8.25V21C0 22.6875 1.3125 24 3 24H29C30.625 24 32 22.6875 32 21V8.25C32 7.9375 31.625 7.75 31.375 7.9375ZM16 16C17.4375 16.0625 19.5 14.1875 20.5625 13.4375C28.875 7.4375 29.5 6.875 31.375 5.375C31.75 5.125 32 4.6875 32 4.1875V3C32 1.375 30.625 0 29 0H3C1.3125 0 0 1.375 0 3V4.1875C0 4.6875 0.1875 5.125 0.5625 5.375C2.4375 6.875 3.0625 7.4375 11.375 13.4375C12.4375 14.1875 14.5 16.0625 16 16Z">
-            </path>
-          </svg>
-          <h5>EMAIL</h5>
-          <small><a href="mailto:pazispeace@outlook.com">pazispeace@outlook.com</a></small>
-        </aside>
-        <aside class="contact-card ">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-            <path
-              d="M16.018,3.815L15.232,8h-4.966l0.716-3.815L9.018,3.815L8.232,8H4v2h3.857l-0.751,4H3v2h3.731l-0.714,3.805l1.965,0.369 L8.766,16h4.966l-0.714,3.805l1.965,0.369L15.766,16H20v-2h-3.859l0.751-4H21V8h-3.733l0.716-3.815L16.018,3.815z M14.106,14H9.141 l0.751-4h4.966L14.106,14z">
-            </path>
-          </svg>
-          <h5>SOCIAL MEDIA</h5>
-          <small class="social-media">
-            <a href="https://twitter.com/pazispeace" target="_blank" rel="noopener">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                <path
-                  d="M19.633,7.997c0.013,0.175,0.013,0.349,0.013,0.523c0,5.325-4.053,11.461-11.46,11.461c-2.282,0-4.402-0.661-6.186-1.809	c0.324,0.037,0.636,0.05,0.973,0.05c1.883,0,3.616-0.636,5.001-1.721c-1.771-0.037-3.255-1.197-3.767-2.793	c0.249,0.037,0.499,0.062,0.761,0.062c0.361,0,0.724-0.05,1.061-0.137c-1.847-0.374-3.23-1.995-3.23-3.953v-0.05	c0.537,0.299,1.16,0.486,1.82,0.511C3.534,9.419,2.823,8.184,2.823,6.787c0-0.748,0.199-1.434,0.548-2.032	c1.983,2.443,4.964,4.04,8.306,4.215c-0.062-0.3-0.1-0.611-0.1-0.923c0-2.22,1.796-4.028,4.028-4.028	c1.16,0,2.207,0.486,2.943,1.272c0.91-0.175,1.782-0.512,2.556-0.973c-0.299,0.935-0.936,1.721-1.771,2.22	c0.811-0.088,1.597-0.312,2.319-0.624C21.104,6.712,20.419,7.423,19.633,7.997z" />
+                  fill="currentColor"
+                  d="M5.7 17.3q-.275-.275-.275-.7q0-.425.275-.7L9.575 12L5.7 8.1q-.275-.275-.287-.688Q5.4 7 5.7 6.7q.275-.275.7-.275q.425 0 .7.275l4.6 4.6q.15.15.213.325q.062.175.062.375t-.062.375q-.063.175-.213.325l-4.6 4.6q-.275.275-.688.287Q6 17.6 5.7 17.3Zm6.6 0q-.275-.275-.275-.7q0-.425.275-.7l3.875-3.9L12.3 8.1q-.275-.275-.288-.688Q12 7 12.3 6.7q.275-.275.7-.275q.425 0 .7.275l4.6 4.6q.15.15.212.325q.063.175.063.375t-.063.375q-.062.175-.212.325l-4.6 4.6q-.275.275-.687.287q-.413.013-.713-.287Z"
+                />
               </svg>
             </a>
-            <a href="https://github.com/pazispeace" target="_blank" rel="noopener">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M12.026,2c-5.509,0-9.974,4.465-9.974,9.974c0,4.406,2.857,8.145,6.821,9.465	c0.499,0.09,0.679-0.217,0.679-0.481c0-0.237-0.008-0.865-0.011-1.696c-2.775,0.602-3.361-1.338-3.361-1.338	c-0.452-1.152-1.107-1.459-1.107-1.459c-0.905-0.619,0.069-0.605,0.069-0.605c1.002,0.07,1.527,1.028,1.527,1.028	c0.89,1.524,2.336,1.084,2.902,0.829c0.091-0.645,0.351-1.085,0.635-1.334c-2.214-0.251-4.542-1.107-4.542-4.93	c0-1.087,0.389-1.979,1.024-2.675c-0.101-0.253-0.446-1.268,0.099-2.64c0,0,0.837-0.269,2.742,1.021	c0.798-0.221,1.649-0.332,2.496-0.336c0.849,0.004,1.701,0.115,2.496,0.336c1.906-1.291,2.742-1.021,2.742-1.021	c0.545,1.372,0.203,2.387,0.099,2.64c0.64,0.696,1.024,1.587,1.024,2.675c0,3.833-2.33,4.675-4.552,4.922	c0.355,0.308,0.675,0.916,0.675,1.846c0,1.334-0.012,2.41-0.012,2.737c0,0.267,0.178,0.577,0.687,0.479	C19.146,20.115,22,16.379,22,11.974C22,6.465,17.535,2,12.026,2z" />
+          </li>
+          <li class="nav-item">
+            <a href="#home" class="nav-link"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="1em"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <g
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M5 12H3l9-9l9 9h-2M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"
+                  />
+                  <path d="M9 21v-6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v6" />
+                </g>
               </svg>
-            </a>
-            <a href="https://www.linkedin.com/in/pazispeace/" target="_blank" rel="noopener">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <span>Inicio</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="1em"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
                 <path
-                  d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h16c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z M8.339,18.337H5.667	v-8.59h2.672V18.337z M7.003,8.574c-0.856,0-1.548-0.694-1.548-1.548s0.691-1.548,1.548-1.548c0.854,0,1.548,0.693,1.548,1.548	S7.857,8.574,7.003,8.574z M18.338,18.337h-2.669V14.16c0-0.996-0.018-2.277-1.388-2.277c-1.39,0-1.601,1.086-1.601,2.207v4.248	h-2.667v-8.59h2.56v1.174h0.037c0.355-0.675,1.227-1.387,2.524-1.387c2.704,0,3.203,1.778,3.203,4.092V18.337z" />
+                  fill="currentColor"
+                  d="M22 3H2c-1.09.04-1.96.91-2 2v14c.04 1.09.91 1.96 2 2h20c1.09-.04 1.96-.91 2-2V5a2.074 2.074 0 0 0-2-2m0 16H2V5h20v14m-8-2v-1.25c0-1.66-3.34-2.5-5-2.5c-1.66 0-5 .84-5 2.5V17h10M9 7a2.5 2.5 0 0 0-2.5 2.5A2.5 2.5 0 0 0 9 12a2.5 2.5 0 0 0 2.5-2.5A2.5 2.5 0 0 0 9 7m5 0v1h6V7h-6m0 2v1h6V9h-6m0 2v1h4v-1h-4"
+                />
               </svg>
+              <span>Acerca</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="1em"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill="currentColor"
+                  d="M4 5H.78c-.37 0-.74.32-.69.84l1.56 9.99S3.5 8.47 3.86 6.7c.11-.53.61-.7.98-.7H10s-.7-2.08-.77-2.31C9.11 3.25 8.89 3 8.45 3H5.14c-.36 0-.7.23-.8.64C4.25 4.04 4 5 4 5zm4.88 0h-4s.42-1 .87-1h2.13c.48 0 1 1 1 1zM2.67 16.25c-.31.47-.76.75-1.26.75h15.73c.54 0 .92-.31 1.03-.83c.44-2.19 1.68-8.44 1.68-8.44c.07-.5-.3-.73-.62-.73H16V5.53c0-.16-.26-.53-.66-.53h-3.76c-.52 0-.87.58-.87.58L10 7H5.59c-.32 0-.63.19-.69.5c0 0-1.59 6.7-1.72 7.33c-.07.37-.22.99-.51 1.42zM15.38 7H11s.58-1 1.13-1h2.29c.71 0 .96 1 .96 1z"
+                />
+              </svg>
+              <span>Portafolio</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="1em"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="currentColor"
+                  d="M9 14q0-3.75 2.625-6.375T18 5v2q-2.925 0-4.962 2.037Q11 11.075 11 14Zm4 0q0-2.075 1.463-3.538Q15.925 9 18 9v2q-1.25 0-2.125.875T15 14ZM5 6q-.825 0-1.413-.588Q3 4.825 3 4t.587-1.413Q4.175 2 5 2q.825 0 1.412.587Q7 3.175 7 4q0 .825-.588 1.412Q5.825 6 5 6Zm-3 5V8.5q0-.625.438-1.062Q2.875 7 3.5 7h3q1.125 0 1.938-.713Q9.25 5.575 9.45 4.5h2q-.15 1.5-1.1 2.65Q9.4 8.3 8 8.75V11Zm17 6q-.825 0-1.413-.587Q17 15.825 17 15q0-.825.587-1.413Q18.175 13 19 13q.825 0 1.413.587Q21 14.175 21 15q0 .825-.587 1.413Q19.825 17 19 17Zm-3 5v-2.25q-1.4-.45-2.35-1.6q-.95-1.15-1.1-2.65h2q.2 1.075 1.012 1.788q.813.712 1.938.712h3q.625 0 1.062.438q.438.437.438 1.062V22Z"
+                /></svg
+              ><span>Contacto</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="1em"
+                height="1em"
+                viewBox="0 0 32 32"
+              >
+                <path
+                  fill="currentColor"
+                  d="M16 28h-3c-3.9 0-7-3.1-7-7v-4h2v4c0 2.8 2.2 5 5 5h3v2zm12 2h2.2l-4.6-11h-2.2l-4.6 11H21l.8-2h5.3l.9 2zm-5.3-4l1.8-4.4l1.8 4.4h-3.6zM28 15h-2v-4c0-2.8-2.2-5-5-5h-4V4h4c3.9 0 7 3.1 7 7v4zM14 5V3H9V1H7v2H2v2h8.2c-.2.9-.8 2.5-2.2 4c-.6-.7-1.1-1.4-1.4-2H4.3c.4 1 1.1 2.2 2.1 3.3c-.8.7-2 1.3-3.4 1.8l.7 1.9c1.8-.7 3.2-1.5 4.3-2.3c1.1.9 2.5 1.7 4.3 2.3l.7-1.9c-1.4-.5-2.6-1.2-3.5-1.8c1.9-2 2.5-4.1 2.7-5.3H14z"
+                /></svg
+              ><span>Idioma</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link theme-switcher" data-theme="dark">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="1em"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="currentColor"
+                  d="M7.5 2c-1.79 1.15-3 3.18-3 5.5s1.21 4.35 3.03 5.5C4.46 13 2 10.54 2 7.5A5.5 5.5 0 0 1 7.5 2m11.57 1.5l1.43 1.43L4.93 20.5L3.5 19.07L19.07 3.5m-6.18 2.43L11.41 5L9.97 6l.42-1.7L9 3.24l1.75-.12l.58-1.65L12 3.1l1.73.03l-1.35 1.13l.51 1.67m-3.3 3.61l-1.16-.73l-1.12.78l.34-1.32l-1.09-.83l1.36-.09l.45-1.29l.51 1.27l1.36.03l-1.05.87l.4 1.31M19 13.5a5.5 5.5 0 0 1-5.5 5.5c-1.22 0-2.35-.4-3.26-1.07l7.69-7.69c.67.91 1.07 2.04 1.07 3.26m-4.4 6.58l2.77-1.15l-.24 3.35l-2.53-2.2m4.33-2.7l1.15-2.77l2.2 2.54l-3.35.23m1.15-4.96l-1.14-2.78l3.34.24l-2.2 2.54M9.63 18.93l2.77 1.15l-2.53 2.19l-.24-3.34Z"
+                />
+              </svg>
+              <span>Themify</span>
             </a>
-          </small>
-        </aside>
-      </article>
-      <form class="contact-form box-shadow-1">
-        <input type="text" name="name" placeholder="Ingresa tu nombre *"
-          title="Nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required="">
-        <input type="email" name="email" placeholder="Ingresa tu correo *" title="Email incorrecto"
-          pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required="">
-        <textarea name="comments" cols="50" rows="10" placeholder="Déjame tus comentarios *" required=""></textarea>
-        <div class="contact-form-loader text-center none">
-          <img src="assets/loader.svg" alt="Enviando...">
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HOME -->
+
+      <section
+        id="home"
+        class="home section container container-lg full-screen full-lg-screen"
+        data-section
+        data-light
+      >
+        <div class="profile-img">
+          <img src="assets/profile-photo.jpg" alt="" />
         </div>
-        <input class="btn" type="submit" value="Enviar">
-      </form>
-      <article id="gracias" class="modal">
-        <div class="modal-content">
-          <article class="contact-form-response">
-            <h3>
-              ¡Muchas Gracias!
-              <br>
-              Por tus comentarios
-            </h3>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-              <path d="M12,18c4,0,5-4,5-4H7C7,14,8,18,12,18z"></path>
+        <div class="presentation text-center">
+          <div class="wrapper-txt">
+            <p>Hola, soy</p>
+            <h1>Luis Paz</h1>
+            <h2 class="dynamic-txt gradient-txt">Desarrollador Web</h2>
+          </div>
+          <div class="contact-container">
+            <ul class="contact">
+              <li>
+                <svg width="20" height="16" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M18 0H2C.9 0 0 .9 0 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2zm0 14h-2V5.2L10 9 4 5.2V14H2V2h1.2L10 6.2 16.8 2H18v12z"
+                    fill="#FFF"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+                <a href="mailto:pazispeace@outlook.com"
+                  >pazispeace@outlook.com</a
+                >
+              </li>
+              <li>
+                <svg width="18" height="18" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M17 12.5c-1.2 0-2.4-.2-3.6-.6-.3-.1-.7 0-1 .2l-2.2 2.2c-2.8-1.4-5.1-3.8-6.6-6.6l2.2-2.2c.3-.3.4-.7.2-1-.3-1.1-.5-2.3-.5-3.5 0-.6-.4-1-1-1H1C.4 0 0 .4 0 1c0 9.4 7.6 17 17 17 .6 0 1-.4 1-1v-3.5c0-.6-.4-1-1-1zM16 9h2c0-5-4-9-9-9v2c3.9 0 7 3.1 7 7zm-4 0h2c0-2.8-2.2-5-5-5v2c1.7 0 3 1.3 3 3z"
+                    fill="#FFF"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+                <a href="tel:3132861653">+573132861653</a>
+              </li>
+            </ul>
+            <ul class="social">
+              <li>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://www.linkedin.com/in/pazispeace/"
+                >
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19 3C19.5304 3 20.0391 3.21071 20.4142 3.58579C20.7893 3.96086 21 4.46957 21 5V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H19ZM18.5 18.5V13.2C18.5 12.3354 18.1565 11.5062 17.5452 10.8948C16.9338 10.2835 16.1046 9.94 15.24 9.94C14.39 9.94 13.4 10.46 12.92 11.24V10.13H10.13V18.5H12.92V13.57C12.92 12.8 13.54 12.17 14.31 12.17C14.6813 12.17 15.0374 12.3175 15.2999 12.5801C15.5625 12.8426 15.71 13.1987 15.71 13.57V18.5H18.5ZM6.88 8.56C7.32556 8.56 7.75288 8.383 8.06794 8.06794C8.383 7.75288 8.56 7.32556 8.56 6.88C8.56 5.95 7.81 5.19 6.88 5.19C6.43178 5.19 6.00193 5.36805 5.68499 5.68499C5.36805 6.00193 5.19 6.43178 5.19 6.88C5.19 7.81 5.95 8.56 6.88 8.56ZM8.27 18.5V10.13H5.5V18.5H8.27Z"
+                      fill="white"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://github.com/Pazispeace"
+                >
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12 2C10.6868 2 9.38642 2.25866 8.17317 2.7612C6.95991 3.26375 5.85752 4.00035 4.92893 4.92893C3.05357 6.8043 2 9.34784 2 12C2 16.42 4.87 20.17 8.84 21.5C9.34 21.58 9.5 21.27 9.5 21V19.31C6.73 19.91 6.14 17.97 6.14 17.97C5.68 16.81 5.03 16.5 5.03 16.5C4.12 15.88 5.1 15.9 5.1 15.9C6.1 15.97 6.63 16.93 6.63 16.93C7.5 18.45 8.97 18 9.54 17.76C9.63 17.11 9.89 16.67 10.17 16.42C7.95 16.17 5.62 15.31 5.62 11.5C5.62 10.39 6 9.5 6.65 8.79C6.55 8.54 6.2 7.5 6.75 6.15C6.75 6.15 7.59 5.88 9.5 7.17C10.29 6.95 11.15 6.84 12 6.84C12.85 6.84 13.71 6.95 14.5 7.17C16.41 5.88 17.25 6.15 17.25 6.15C17.8 7.5 17.45 8.54 17.35 8.79C18 9.5 18.38 10.39 18.38 11.5C18.38 15.32 16.04 16.16 13.81 16.41C14.17 16.72 14.5 17.33 14.5 18.26V21C14.5 21.27 14.66 21.59 15.17 21.5C19.14 20.16 22 16.42 22 12C22 10.6868 21.7413 9.38642 21.2388 8.17317C20.7362 6.95991 19.9997 5.85752 19.0711 4.92893C18.1425 4.00035 17.0401 3.26375 15.8268 2.7612C14.6136 2.25866 13.3132 2 12 2Z"
+                      fill="white"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://twitter.com/pazispeace"
+                >
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M22.46 6C21.69 6.35 20.86 6.58 20 6.69C20.88 6.16 21.56 5.32 21.88 4.31C21.05 4.81 20.13 5.16 19.16 5.36C18.37 4.5 17.26 4 16 4C13.65 4 11.73 5.92 11.73 8.29C11.73 8.63 11.77 8.96 11.84 9.27C8.28004 9.09 5.11004 7.38 3.00004 4.79C2.63004 5.42 2.42004 6.16 2.42004 6.94C2.42004 8.43 3.17004 9.75 4.33004 10.5C3.62004 10.5 2.96004 10.3 2.38004 10V10.03C2.38004 12.11 3.86004 13.85 5.82004 14.24C5.19077 14.4122 4.53013 14.4362 3.89004 14.31C4.16165 15.1625 4.69358 15.9084 5.41106 16.4429C6.12854 16.9775 6.99549 17.2737 7.89004 17.29C6.37367 18.4904 4.49404 19.1393 2.56004 19.13C2.22004 19.13 1.88004 19.11 1.54004 19.07C3.44004 20.29 5.70004 21 8.12004 21C16 21 20.33 14.46 20.33 8.79C20.33 8.6 20.33 8.42 20.32 8.23C21.16 7.63 21.88 6.87 22.46 6Z"
+                      fill="white"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- STATS -->
+
+      <section
+        class="stats-container section container container-lg"
+        data-section
+        data-light
+      >
+        <article class="stats">
+          <figure class="projects">
+            <svg
+              width="61"
+              height="61"
+              viewBox="0 0 61 61"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
               <path
-                d="M12,2C6.486,2,2,6.486,2,12c0,5.514,4.486,10,10,10s10-4.486,10-10C22,6.486,17.514,2,12,2z M12,20c-4.411,0-8-3.589-8-8 s3.589-8,8-8s8,3.589,8,8S16.411,20,12,20z">
-              </path>
+                d="M26.75 8H11.75C10.7554 8 9.80161 8.39509 9.09835 9.09835C8.39509 9.80161 8 10.7554 8 11.75V39.25C8 40.2446 8.39509 41.1984 9.09835 41.9016C9.80161 42.6049 10.7554 43 11.75 43H49.25C50.2446 43 51.1984 42.6049 51.9016 41.9016C52.6049 41.1984 53 40.2446 53 39.25V26.75M30.5 43V53"
+                stroke="#FEFEFE"
+                stroke-width="4"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
               <path
-                d="M13 12l2 .012C15.012 11.55 15.194 11 16 11s.988.55 1 1h2c0-1.206-.799-3-3-3S13 10.794 13 12zM8 11c.806 0 .988.55 1 1h2c0-1.206-.799-3-3-3s-3 1.794-3 3l2 .012C7.012 11.55 7.194 11 8 11z">
-              </path>
+                d="M40.5 8L35.5 13L40.5 18M48 8L53 13L48 18M18 53H43"
+                stroke="#FEFEFE"
+                stroke-width="4"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
             </svg>
+            <figcaption>
+              <strong>+25 Proyectos</strong>
+              <p>Completados</p>
+            </figcaption>
+          </figure>
+          <figure class="support">
+            <svg
+              width="61"
+              height="61"
+              viewBox="0 0 61 61"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M47.58 37.515C48.4696 35.3546 48.9525 33.0417 48.9525 30.5C48.9525 28.67 48.673 26.9162 48.19 25.2896C46.538 25.6708 44.8096 25.8742 43.005 25.8742C39.3094 25.8781 35.6669 24.9935 32.3848 23.2949C29.1026 21.5963 26.2769 19.1335 24.1459 16.1142C21.8662 21.63 17.5658 26.0668 12.1238 28.5175C12.0221 29.1529 12.0221 29.8392 12.0221 30.5C12.0221 32.9266 12.5001 35.3293 13.4287 37.5712C14.3573 39.813 15.7183 41.85 17.4342 43.5659C20.8995 47.0311 25.5994 48.9779 30.5 48.9779C33.1688 48.9779 35.7359 48.3933 38.0488 47.3512C39.4975 50.1217 40.1584 51.4942 40.1075 51.4942C35.9392 52.8921 32.7113 53.5783 30.5 53.5783C24.3492 53.5783 18.478 51.1637 14.1571 46.8175C11.529 44.1975 9.57544 40.9793 8.46379 37.4387H5.08337V25.8742H7.85379C8.69315 21.7885 10.6229 18.0062 13.4383 14.9287C16.2537 11.8512 19.8497 9.59328 23.8448 8.39451C27.8398 7.19573 32.0849 7.10083 36.1295 8.11988C40.1741 9.13892 43.8674 11.2339 46.8175 14.1825C50.0206 17.3729 52.2054 21.4418 53.0955 25.8742H55.9167V37.4387H55.7642L46.7159 45.75L33.245 44.225V39.9804H45.5213L47.58 37.515ZM23.5613 29.9154C24.3238 29.9154 25.0609 30.2204 25.5946 30.7796C26.131 31.3204 26.432 32.0512 26.432 32.8129C26.432 33.5746 26.131 34.3055 25.5946 34.8462C25.0609 35.38 24.3238 35.685 23.5613 35.685C21.96 35.685 20.6638 34.4142 20.6638 32.8129C20.6638 31.2117 21.96 29.9154 23.5613 29.9154ZM37.4134 29.9154C39.0146 29.9154 40.2855 31.2117 40.2855 32.8129C40.2855 34.4142 39.0146 35.685 37.4134 35.685C35.8121 35.685 34.5159 34.4142 34.5159 32.8129C34.5159 32.0444 34.8211 31.3075 35.3645 30.7641C35.9079 30.2207 36.6449 29.9154 37.4134 29.9154Z"
+                fill="#FEFEFE"
+              />
+            </svg>
+            <figcaption>
+              <strong>Soporte</strong>
+              <p>Online 16/7</p>
+            </figcaption>
+          </figure>
+          <figure class="clean-code">
+            <svg
+              width="61"
+              height="61"
+              viewBox="0 0 61 61"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M26.75 8H11.75C10.7554 8 9.80161 8.39509 9.09835 9.09835C8.39509 9.80161 8 10.7554 8 11.75V39.25C8 40.2446 8.39509 41.1984 9.09835 41.9016C9.80161 42.6049 10.7554 43 11.75 43H49.25C50.2446 43 51.1984 42.6049 51.9016 41.9016C52.6049 41.1984 53 40.2446 53 39.25V26.75M30.5 43V53"
+                stroke="#FEFEFE"
+                stroke-width="4"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M40.5 8L35.5 13L40.5 18M48 8L53 13L48 18M18 53H43"
+                stroke="#FEFEFE"
+                stroke-width="4"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <figcaption>
+              <strong>Escalable</strong>
+              <p>Buenas prácticas</p>
+            </figcaption>
+          </figure>
+        </article>
+      </section>
+
+      <!-- ABOUT -->
+
+      <section
+        id="about"
+        class="about-container section container container-lg full-lg-screen"
+        data-section
+        data-light
+      >
+        <article class="about">
+          <img src="assets/about-img.svg" alt="" />
+          <div class="about-content">
+            <h2 class="section-title">Acerca de mí</h2>
+            <p>
+              Soy un desarrollador frontEnd autodidacta. Empático, responsable,
+              con capacidad de escucha, compromiso y trabajo en equipo.
+            </p>
+            <p>
+              Colaboro en proyectos como Freelance FrontEnd, lo cual disfruto
+              mucho.
+            </p>
+            <p>
+              Así como gozo llevar a cabo la maquetación e interactividad de
+              interfaces web (sobre todo con CSS), así como la optimización,
+              para el buen rendimiento de carga de sitios web.
+            </p>
+            <a class="curriculum" href="#" target="_blank" rel="noreferrer"
+              >Descargar CV</a
+            >
+          </div>
+        </article>
+      </section>
+
+      <!-- SOFT SKILLS -->
+
+      <section
+        class="soft-skills-container section container container-lg full-lg-screen"
+        data-section
+        data-light
+      >
+        <h2 class="section-title">Habilidades blandas</h2>
+        <div class="skills-wrapper">
+          <figure data-one>
+            <img src="assets/time.svg" alt="" />
+            <figcaption>Capacidad para administrar el tiempo</figcaption>
+          </figure>
+          <figure data-two>
+            <img src="assets/thinking.svg" alt="" />
+            <figcaption>
+              Capacidad para pensar racional y reflexivamente
+            </figcaption>
+          </figure>
+          <figure data-three>
+            <img src="assets/productivity.svg" alt="" />
+            <figcaption>
+              Saber adaptarme y ser flexible cuando surgen nuevos retos
+            </figcaption>
+          </figure>
+          <figure data-four>
+            <img src="assets/reading.svg" alt="" />
+            <figcaption>Deseo constante de aprender cosas nuevas</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- tech skills -->
+
+      <section
+        id="tech"
+        class="tech-skills-container section container container-lg"
+        data-section
+        data-light
+      >
+        <h2 class="section-title">Habilidades técnicas</h2>
+        <div class="skills">
+          <div class="">
+            <svg
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#E34F26"
+            >
+              <title>HTML5</title>
+              <path
+                d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"
+              ></path></svg
+            ><span>HTML5</span>
+          </div>
+          <div class="">
+            <svg
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#1572B6"
+            >
+              <title>CSS3</title>
+              <path
+                d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z"
+              ></path></svg
+            ><span>CSS3</span>
+          </div>
+          <div class="">
+            <svg
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#F7DF1E"
+            >
+              <title>JavaScript</title>
+              <path
+                d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z"
+              ></path></svg
+            ><span>JavaScript</span>
+          </div>
+          <div class="">
+            <svg
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#7952B3"
+            >
+              <title>Bootstrap</title>
+              <path
+                d="M11.77 11.24H9.956V8.202h2.152c1.17 0 1.834.522 1.834 1.466 0 1.008-.773 1.572-2.174 1.572zm.324 1.206H9.957v3.348h2.231c1.459 0 2.232-.585 2.232-1.685s-.795-1.663-2.326-1.663zM24 11.39v1.218c-1.128.108-1.817.944-2.226 2.268-.407 1.319-.463 2.937-.42 4.186.045 1.3-.968 2.5-2.337 2.5H4.985c-1.37 0-2.383-1.2-2.337-2.5.043-1.249-.013-2.867-.42-4.186-.41-1.324-1.1-2.16-2.228-2.268V11.39c1.128-.108 1.819-.944 2.227-2.268.408-1.319.464-2.937.42-4.186-.045-1.3.968-2.5 2.338-2.5h14.032c1.37 0 2.382 1.2 2.337 2.5-.043 1.249.013 2.867.42 4.186.409 1.324 1.098 2.16 2.226 2.268zm-7.927 2.817c0-1.354-.953-2.333-2.368-2.488v-.057c1.04-.169 1.856-1.135 1.856-2.213 0-1.537-1.213-2.538-3.062-2.538h-4.16v10.172h4.181c2.218 0 3.553-1.086 3.553-2.876z"
+              ></path></svg
+            ><span>Bootstrap</span>
+          </div>
+          <div class="">
+            <svg
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#181717"
+            >
+              <title>GitHub</title>
+              <path
+                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+              ></path></svg
+            ><span>Github</span>
+          </div>
+        </div>
+      </section>
+      <!-- Portfolio -->
+
+      <section
+        id="portfolio"
+        class="portfolio-container section container container-lg full-lg-screen"
+        data-section
+        data-light
+      >
+        <h2 class="text-center">Portafolio</h2>
+        <p class="text-center">Últimos proyectos</p>
+        <div class="cards-container grid-fluid">
+          <article
+            class="card"
+            style="
+              --card-img: url('assets/websites/country-desktop-preview.jpg');
+            "
+          >
+            <div class="card-content">
+              <h2 class="card-title">Country search</h2>
+              <p>
+                Para la creación de esta web he hecho consumo a una API REST
+                llamada RestCountries, logrando esto con solo vanilla JS y CSS
+              </p>
+              <div class="tech-container">
+                <ul class="card-tech">
+                  <li>Html</li>
+                  <li>Css</li>
+                  <li>JavaScript</li>
+                  <li>API</li>
+                </ul>
+                <a
+                  class="card-btn text-center"
+                  href="https://pazispeace.github.io/FrontendMentor-Challenges/rest-countries-api-with-color-theme-switcher-master/"
+                  target="_blank"
+                  referrerpolicy=""
+                  >Visitar sitio
+
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      fill="#5454c5"
+                      d="m224.5 136.5l-72 72a12.1 12.1 0 0 1-17 0a12 12 0 0 1 0-17L187 140H40a12 12 0 0 1 0-24h147l-51.5-51.5a12 12 0 0 1 17-17l72 72a12 12 0 0 1 0 17Z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article
+            class="card"
+            style="
+              --card-img: url('assets/websites/clipboard-desktop-preview.jpg');
+            "
+          >
+            <div class="card-content">
+              <h2 class="card-title">Clipboard page</h2>
+              <p>
+                Clipboard Landing Page, usando una variedad de técnicas con CSS
+                para lograr el layout
+              </p>
+              <div class="tech-container">
+                <ul class="card-tech">
+                  <li>Html</li>
+                  <li>Css</li>
+                </ul>
+                <a
+                  class="card-btn text-center"
+                  href="https://pazispeace.github.io/FrontendMentor-Challenges/clipboard-landing-page-master/"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Visitar sitio
+
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      fill="#5454c5"
+                      d="m224.5 136.5l-72 72a12.1 12.1 0 0 1-17 0a12 12 0 0 1 0-17L187 140H40a12 12 0 0 1 0-24h147l-51.5-51.5a12 12 0 0 1 17-17l72 72a12 12 0 0 1 0 17Z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article
+            class="card"
+            style="
+              --card-img: url('assets/websites/chat-illustration-desktop-preview.jpg');
+            "
+          >
+            <div class="card-content">
+              <h2 class="card-title">Chat APP CSS</h2>
+              <p>
+                Ilustración interactiva usando solo CSS y técnicas de
+                posicionamiento absoluto
+              </p>
+              <div class="tech-container">
+                <ul class="card-tech">
+                  <li>Html</li>
+                  <li>Css</li>
+                </ul>
+                <a
+                  class="card-btn text-center"
+                  href="https://pazispeace.github.io/FrontendMentor-Challenges/chat-app-css-illustration-master/"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Visitar sitio
+
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      fill="#5454c5"
+                      d="m224.5 136.5l-72 72a12.1 12.1 0 0 1-17 0a12 12 0 0 1 0-17L187 140H40a12 12 0 0 1 0-24h147l-51.5-51.5a12 12 0 0 1 17-17l72 72a12 12 0 0 1 0 17Z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
           </article>
         </div>
-      </article>
-    </section>
+      </section>
 
+      <!-- SERVICIOS -->
 
-  </main>
-
-  <footer data-light>
-
-    <div class="footer-info-container container container-lg">
-      <address class="contact">
-        <div>
-          <svg width="13" height="18" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M6.188 0C2.74 0 0 2.79 0 6.3 0 10.98 6.188 18 6.188 18s6.187-7.02 6.187-11.7c0-3.51-2.74-6.3-6.188-6.3zm0 8.55c-1.238 0-2.21-.99-2.21-2.25s.972-2.25 2.21-2.25c1.237 0 2.21.99 2.21 2.25s-.973 2.25-2.21 2.25z"
-              fill="#FFF" fill-rule="evenodd" />
-          </svg>
-          <p>Colombia - Bucaramanga Santander</p>
-        </div>
-        <div>
-          <svg width="18" height="18" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M17 12.5c-1.2 0-2.4-.2-3.6-.6-.3-.1-.7 0-1 .2l-2.2 2.2c-2.8-1.4-5.1-3.8-6.6-6.6l2.2-2.2c.3-.3.4-.7.2-1-.3-1.1-.5-2.3-.5-3.5 0-.6-.4-1-1-1H1C.4 0 0 .4 0 1c0 9.4 7.6 17 17 17 .6 0 1-.4 1-1v-3.5c0-.6-.4-1-1-1zM16 9h2c0-5-4-9-9-9v2c3.9 0 7 3.1 7 7zm-4 0h2c0-2.8-2.2-5-5-5v2c1.7 0 3 1.3 3 3z"
-              fill="#FFF" fill-rule="evenodd" />
-          </svg>
-          <a href="tel:3132861653">(+57) 3132861653</a>
-        </div>
-        <div>
-          <svg width="20" height="16" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M18 0H2C.9 0 0 .9 0 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2zm0 14h-2V5.2L10 9 4 5.2V14H2V2h1.2L10 6.2 16.8 2H18v12z"
-              fill="#FFF" fill-rule="evenodd" />
-          </svg>
-          <a href="mailto:pazispeace@outlook.com.com">pazispeace@outlook.com</a>
-        </div>
-      </address>
-      <ul class="more-about">
-        <li><a href="#about">Acerca</a></li>
-        <li><a href="#portfolio">Proyectos</a></li>
-        <li><a href="#services">Servicios</a></li>
-        <li><a href="#testimonials">Testimonios</a></li>
-        <li><a href="#contact">Contacto</a></li>
-        <li><a href="#tech">Tecnologías</a></li>
-      </ul>
-      <ul class="social-media">
-        <li>
-          <a href="https://www.linkedin.com/in/pazispeace/" target="_blank" rel="noreferrer">
-
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <section
+        id="services"
+        class="services-container section"
+        data-section
+        data-light
+      >
+        <h2>¿Qué te ofrezco?</h2>
+        <div class="services container container-lg">
+          <article class="service-card">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
               <path
-                d="M19 3C19.5304 3 20.0391 3.21071 20.4142 3.58579C20.7893 3.96086 21 4.46957 21 5V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H19ZM18.5 18.5V13.2C18.5 12.3354 18.1565 11.5062 17.5452 10.8948C16.9338 10.2835 16.1046 9.94 15.24 9.94C14.39 9.94 13.4 10.46 12.92 11.24V10.13H10.13V18.5H12.92V13.57C12.92 12.8 13.54 12.17 14.31 12.17C14.6813 12.17 15.0374 12.3175 15.2999 12.5801C15.5625 12.8426 15.71 13.1987 15.71 13.57V18.5H18.5ZM6.88 8.56C7.32556 8.56 7.75288 8.383 8.06794 8.06794C8.383 7.75288 8.56 7.32556 8.56 6.88C8.56 5.95 7.81 5.19 6.88 5.19C6.43178 5.19 6.00193 5.36805 5.68499 5.68499C5.36805 6.00193 5.19 6.43178 5.19 6.88C5.19 7.81 5.95 8.56 6.88 8.56ZM8.27 18.5V10.13H5.5V18.5H8.27Z"
-                fill="white" />
-            </svg>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/Pazispeace" target="_blank" rel="noreferrer">
-
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                fill="white"
+                d="M20,3H4C2.897,3,2,3.897,2,5v14c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2V5C22,3.897,21.103,3,20,3z M4,19V7h16 l0.002,12H4z"
+              />
               <path
-                d="M12 2C10.6868 2 9.38642 2.25866 8.17317 2.7612C6.95991 3.26375 5.85752 4.00035 4.92893 4.92893C3.05357 6.8043 2 9.34784 2 12C2 16.42 4.87 20.17 8.84 21.5C9.34 21.58 9.5 21.27 9.5 21V19.31C6.73 19.91 6.14 17.97 6.14 17.97C5.68 16.81 5.03 16.5 5.03 16.5C4.12 15.88 5.1 15.9 5.1 15.9C6.1 15.97 6.63 16.93 6.63 16.93C7.5 18.45 8.97 18 9.54 17.76C9.63 17.11 9.89 16.67 10.17 16.42C7.95 16.17 5.62 15.31 5.62 11.5C5.62 10.39 6 9.5 6.65 8.79C6.55 8.54 6.2 7.5 6.75 6.15C6.75 6.15 7.59 5.88 9.5 7.17C10.29 6.95 11.15 6.84 12 6.84C12.85 6.84 13.71 6.95 14.5 7.17C16.41 5.88 17.25 6.15 17.25 6.15C17.8 7.5 17.45 8.54 17.35 8.79C18 9.5 18.38 10.39 18.38 11.5C18.38 15.32 16.04 16.16 13.81 16.41C14.17 16.72 14.5 17.33 14.5 18.26V21C14.5 21.27 14.66 21.59 15.17 21.5C19.14 20.16 22 16.42 22 12C22 10.6868 21.7413 9.38642 21.2388 8.17317C20.7362 6.95991 19.9997 5.85752 19.0711 4.92893C18.1425 4.00035 17.0401 3.26375 15.8268 2.7612C14.6136 2.25866 13.3132 2 12 2Z"
-                fill="white" />
+                fill="white"
+                d="M9.293 9.293L5.586 13 9.293 16.707 10.707 15.293 8.414 13 10.707 10.707zM14.707 9.293L13.293 10.707 15.586 13 13.293 15.293 14.707 16.707 18.414 13z"
+              />
             </svg>
-          </a>
-        </li>
-        <li>
-          <a href="https://twitter.com/pazispeace" target="_blank" rel="noreferrer">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <h3>Programación Web</h3>
+            <p>
+              Desarrollo sitios para plataformas Web. Te ayudo a construir tu
+              proyecto de principio a fin: Frontend.
+            </p>
+          </article>
+          <article class="service-card">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
               <path
-                d="M22.46 6C21.69 6.35 20.86 6.58 20 6.69C20.88 6.16 21.56 5.32 21.88 4.31C21.05 4.81 20.13 5.16 19.16 5.36C18.37 4.5 17.26 4 16 4C13.65 4 11.73 5.92 11.73 8.29C11.73 8.63 11.77 8.96 11.84 9.27C8.28004 9.09 5.11004 7.38 3.00004 4.79C2.63004 5.42 2.42004 6.16 2.42004 6.94C2.42004 8.43 3.17004 9.75 4.33004 10.5C3.62004 10.5 2.96004 10.3 2.38004 10V10.03C2.38004 12.11 3.86004 13.85 5.82004 14.24C5.19077 14.4122 4.53013 14.4362 3.89004 14.31C4.16165 15.1625 4.69358 15.9084 5.41106 16.4429C6.12854 16.9775 6.99549 17.2737 7.89004 17.29C6.37367 18.4904 4.49404 19.1393 2.56004 19.13C2.22004 19.13 1.88004 19.11 1.54004 19.07C3.44004 20.29 5.70004 21 8.12004 21C16 21 20.33 14.46 20.33 8.79C20.33 8.6 20.33 8.42 20.32 8.23C21.16 7.63 21.88 6.87 22.46 6Z"
-                fill="white" />
+                fill="white"
+                d="M20,3H7C5.897,3,5,3.897,5,5v2H4C2.897,7,2,7.897,2,9v10c0,1.103,0.897,2,2,2h6c1.103,0,2-0.897,2-2h8c1.103,0,2-0.897,2-2 V5C22,3.897,21.103,3,20,3z M6,9h4l-0.003,9H4V9H6z M12,17V9c0-1.103-0.897-2-2-2H7V5h11v12H12z"
+              />
             </svg>
-          </a>
+            <h3>Diseño Web</h3>
+            <p>
+              Prototipo y maqueto tus diseños estáticos y los convierto en
+              increíbles sitios web responsivos, óptimos y accesibles.
+            </p>
+          </article>
+        </div>
+      </section>
 
-        </li>
-      </ul>
-      <small class="text-center text-lg-right">© Copyright 2023 Luis Paz. All rights reserved.</small>
-    </div>
-  </footer>
-  <script src="main.js" type="module"></script>
-</body>
+      <!-- TESTIMONIOS -->
 
+      <section
+        id="testimonials"
+        class="testimonials-container section container container-lg full-lg-screen"
+        data-section
+        data-light
+      >
+        <h2 class="text-center">Testimonios</h2>
+        <!-- container -->
+        <div class="testimonial">
+          <div class="slides-indicator">
+            <span class="indicator active"></span><span class="indicator"></span
+            ><span class="indicator"></span>
+          </div>
+          <!-- testimonial -->
+          <div class="slides-container">
+            <div class="slide-row text-center" id="slide">
+              <div class="slide-col">
+                <article class="slide-text">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Impedit quaerat perferendis nesciunt aperiam harum rem
+                    pariatur dignissimos
+                  </p>
+                  <h3>Sarah</h3>
+                  <p>Lorem Inc.</p>
+                </article>
+                <div class="slide-img">
+                  <img src="assets/profile.jpg" alt="" />
+                </div>
+              </div>
+              <div class="slide-col">
+                <article class="slide-text">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Impedit quaerat perferendis nesciunt aperiam harum rem
+                    pariatur dignissimos
+                  </p>
+                  <h3>Roberth</h3>
+                  <p>Lorem Inc.</p>
+                </article>
+                <div class="slide-img">
+                  <img src="assets/profile.jpg" alt="" />
+                </div>
+              </div>
+              <div class="slide-col">
+                <article class="slide-text">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Impedit quaerat perferendis nesciunt aperiam harum rem
+                    pariatur dignissimos
+                  </p>
+                  <h3>Alejandro</h3>
+                  <p>Lorem Inc.</p>
+                </article>
+                <div class="slide-img">
+                  <img src="assets/profile.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contacto -->
+
+      <section id="contact" class="interest-container section" data-light>
+        <div class="interest container container-lg" data-section>
+          <h2>¿Interesado?</h2>
+          <p>
+            Estoy disponible para proyectos freelance como desarrollador
+            FrontEnd
+          </p>
+        </div>
+        <article class="contact-cards">
+          <aside class="contact-card">
+            <svg
+              width="37"
+              height="28"
+              viewBox="0 0 37 28"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M18.5 7.3125L7 16.8125V27C7 27.5625 7.4375 28 8 28H15C15.5 28 15.9375 27.5625 15.9375 27V21C15.9375 20.5 16.4375 20 16.9375 20H20.9375C21.5 20 21.9375 20.5 21.9375 21V27C21.9375 27.5625 22.4375 28 22.9375 28H30C30.5 28 31 27.5625 31 27V16.75L19.4375 7.3125C19.3125 7.1875 19.125 7.125 19 7.125C18.8125 7.125 18.625 7.1875 18.5 7.3125ZM36.6875 13.75L31.5 9.4375V0.8125C31.5 0.375 31.125 0.0625 30.75 0.0625H27.25C26.8125 0.0625 26.5 0.375 26.5 0.8125V5.3125L20.875 0.6875C20.375 0.3125 19.6875 0.0625 19 0.0625C18.25 0.0625 17.5625 0.3125 17.0625 0.6875L1.25 13.75C1.0625 13.875 0.9375 14.125 0.9375 14.3125C0.9375 14.5 1.0625 14.6875 1.125 14.8125L2.75 16.75C2.875 16.9375 3.0625 17 3.3125 17C3.5 17 3.6875 16.9375 3.8125 16.8125L18.5 4.75C18.625 4.625 18.8125 4.5625 19 4.5625C19.125 4.5625 19.3125 4.625 19.4375 4.75L34.125 16.8125C34.25 16.9375 34.4375 17 34.625 17C34.875 17 35.0625 16.9375 35.1875 16.75L36.8125 14.8125C36.9375 14.6875 37 14.5 37 14.3125C37 14.125 36.875 13.875 36.6875 13.75Z"
+              ></path>
+            </svg>
+            <h5>UBICACIÓN</h5>
+            <small>Colombia, Bucaramanga Santander</small>
+          </aside>
+          <aside class="contact-card">
+            <svg
+              width="33"
+              height="32"
+              viewBox="0 0 33 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M31.8125 1.5625L25.3125 0.0625C24.625 -0.125 23.875 0.25 23.5625 0.9375L20.5625 7.9375C20.3125 8.5625 20.5 9.25 21 9.6875L24.8125 12.8125C22.5625 17.5625 18.625 21.5625 13.75 23.875L10.625 20.0625C10.1875 19.5625 9.5 19.375 8.875 19.625L1.875 22.625C1.1875 22.9375 0.875 23.6875 1 24.375L2.5 30.875C2.6875 31.5625 3.25 32 4 32C20 32 33 19.0625 33 3C33 2.3125 32.5 1.75 31.8125 1.5625Z"
+              ></path>
+            </svg>
+            <h5>TELÉFONO</h5>
+            <small><a href="tel:3132861653">(+57) 3132861653</a></small>
+          </aside>
+          <aside class="contact-card">
+            <svg
+              width="32"
+              height="24"
+              viewBox="0 0 32 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M31.375 7.9375C29.9375 9.0625 28.125 10.4375 21.75 15.0625C20.5 16 18.1875 18.0625 16 18.0625C13.75 18.0625 11.5 16 10.1875 15.0625C3.8125 10.4375 2 9.0625 0.5625 7.9375C0.3125 7.75 0 7.9375 0 8.25V21C0 22.6875 1.3125 24 3 24H29C30.625 24 32 22.6875 32 21V8.25C32 7.9375 31.625 7.75 31.375 7.9375ZM16 16C17.4375 16.0625 19.5 14.1875 20.5625 13.4375C28.875 7.4375 29.5 6.875 31.375 5.375C31.75 5.125 32 4.6875 32 4.1875V3C32 1.375 30.625 0 29 0H3C1.3125 0 0 1.375 0 3V4.1875C0 4.6875 0.1875 5.125 0.5625 5.375C2.4375 6.875 3.0625 7.4375 11.375 13.4375C12.4375 14.1875 14.5 16.0625 16 16Z"
+              ></path>
+            </svg>
+            <h5>EMAIL</h5>
+            <small
+              ><a href="mailto:pazispeace@outlook.com"
+                >pazispeace@outlook.com</a
+              ></small
+            >
+          </aside>
+          <aside class="contact-card">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.018,3.815L15.232,8h-4.966l0.716-3.815L9.018,3.815L8.232,8H4v2h3.857l-0.751,4H3v2h3.731l-0.714,3.805l1.965,0.369 L8.766,16h4.966l-0.714,3.805l1.965,0.369L15.766,16H20v-2h-3.859l0.751-4H21V8h-3.733l0.716-3.815L16.018,3.815z M14.106,14H9.141 l0.751-4h4.966L14.106,14z"
+              ></path>
+            </svg>
+            <h5>SOCIAL MEDIA</h5>
+            <small class="social-media">
+              <a
+                href="https://twitter.com/pazispeace"
+                target="_blank"
+                rel="noopener"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M19.633,7.997c0.013,0.175,0.013,0.349,0.013,0.523c0,5.325-4.053,11.461-11.46,11.461c-2.282,0-4.402-0.661-6.186-1.809	c0.324,0.037,0.636,0.05,0.973,0.05c1.883,0,3.616-0.636,5.001-1.721c-1.771-0.037-3.255-1.197-3.767-2.793	c0.249,0.037,0.499,0.062,0.761,0.062c0.361,0,0.724-0.05,1.061-0.137c-1.847-0.374-3.23-1.995-3.23-3.953v-0.05	c0.537,0.299,1.16,0.486,1.82,0.511C3.534,9.419,2.823,8.184,2.823,6.787c0-0.748,0.199-1.434,0.548-2.032	c1.983,2.443,4.964,4.04,8.306,4.215c-0.062-0.3-0.1-0.611-0.1-0.923c0-2.22,1.796-4.028,4.028-4.028	c1.16,0,2.207,0.486,2.943,1.272c0.91-0.175,1.782-0.512,2.556-0.973c-0.299,0.935-0.936,1.721-1.771,2.22	c0.811-0.088,1.597-0.312,2.319-0.624C21.104,6.712,20.419,7.423,19.633,7.997z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="https://github.com/pazispeace"
+                target="_blank"
+                rel="noopener"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M12.026,2c-5.509,0-9.974,4.465-9.974,9.974c0,4.406,2.857,8.145,6.821,9.465	c0.499,0.09,0.679-0.217,0.679-0.481c0-0.237-0.008-0.865-0.011-1.696c-2.775,0.602-3.361-1.338-3.361-1.338	c-0.452-1.152-1.107-1.459-1.107-1.459c-0.905-0.619,0.069-0.605,0.069-0.605c1.002,0.07,1.527,1.028,1.527,1.028	c0.89,1.524,2.336,1.084,2.902,0.829c0.091-0.645,0.351-1.085,0.635-1.334c-2.214-0.251-4.542-1.107-4.542-4.93	c0-1.087,0.389-1.979,1.024-2.675c-0.101-0.253-0.446-1.268,0.099-2.64c0,0,0.837-0.269,2.742,1.021	c0.798-0.221,1.649-0.332,2.496-0.336c0.849,0.004,1.701,0.115,2.496,0.336c1.906-1.291,2.742-1.021,2.742-1.021	c0.545,1.372,0.203,2.387,0.099,2.64c0.64,0.696,1.024,1.587,1.024,2.675c0,3.833-2.33,4.675-4.552,4.922	c0.355,0.308,0.675,0.916,0.675,1.846c0,1.334-0.012,2.41-0.012,2.737c0,0.267,0.178,0.577,0.687,0.479	C19.146,20.115,22,16.379,22,11.974C22,6.465,17.535,2,12.026,2z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/pazispeace/"
+                target="_blank"
+                rel="noopener"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h16c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z M8.339,18.337H5.667	v-8.59h2.672V18.337z M7.003,8.574c-0.856,0-1.548-0.694-1.548-1.548s0.691-1.548,1.548-1.548c0.854,0,1.548,0.693,1.548,1.548	S7.857,8.574,7.003,8.574z M18.338,18.337h-2.669V14.16c0-0.996-0.018-2.277-1.388-2.277c-1.39,0-1.601,1.086-1.601,2.207v4.248	h-2.667v-8.59h2.56v1.174h0.037c0.355-0.675,1.227-1.387,2.524-1.387c2.704,0,3.203,1.778,3.203,4.092V18.337z"
+                  />
+                </svg>
+              </a>
+            </small>
+          </aside>
+        </article>
+        <form class="contact-form box-shadow-1">
+          <input
+            type="text"
+            name="name"
+            placeholder="Ingresa tu nombre *"
+            title="Nombre sólo acepta letras y espacios en blanco"
+            pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+            required=""
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Ingresa tu correo *"
+            title="Email incorrecto"
+            pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
+            required=""
+          />
+          <textarea
+            name="comments"
+            cols="50"
+            rows="10"
+            placeholder="Déjame tus comentarios *"
+            required=""
+          ></textarea>
+          <div class="contact-form-loader text-center none">
+            <img src="assets/loader.svg" alt="Enviando..." />
+          </div>
+          <input class="btn" type="submit" value="Enviar" />
+        </form>
+        <article id="gracias" class="modal">
+          <div class="modal-content">
+            <article class="contact-form-response">
+              <h3>
+                ¡Muchas Gracias!
+                <br />
+                Por tus comentarios
+              </h3>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path d="M12,18c4,0,5-4,5-4H7C7,14,8,18,12,18z"></path>
+                <path
+                  d="M12,2C6.486,2,2,6.486,2,12c0,5.514,4.486,10,10,10s10-4.486,10-10C22,6.486,17.514,2,12,2z M12,20c-4.411,0-8-3.589-8-8 s3.589-8,8-8s8,3.589,8,8S16.411,20,12,20z"
+                ></path>
+                <path
+                  d="M13 12l2 .012C15.012 11.55 15.194 11 16 11s.988.55 1 1h2c0-1.206-.799-3-3-3S13 10.794 13 12zM8 11c.806 0 .988.55 1 1h2c0-1.206-.799-3-3-3s-3 1.794-3 3l2 .012C7.012 11.55 7.194 11 8 11z"
+                ></path>
+              </svg>
+            </article>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer data-light>
+      <div class="footer-info-container container container-lg">
+        <address class="contact">
+          <div>
+            <svg width="13" height="18" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M6.188 0C2.74 0 0 2.79 0 6.3 0 10.98 6.188 18 6.188 18s6.187-7.02 6.187-11.7c0-3.51-2.74-6.3-6.188-6.3zm0 8.55c-1.238 0-2.21-.99-2.21-2.25s.972-2.25 2.21-2.25c1.237 0 2.21.99 2.21 2.25s-.973 2.25-2.21 2.25z"
+                fill="#FFF"
+                fill-rule="evenodd"
+              />
+            </svg>
+            <p>Colombia - Bucaramanga Santander</p>
+          </div>
+          <div>
+            <svg width="18" height="18" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M17 12.5c-1.2 0-2.4-.2-3.6-.6-.3-.1-.7 0-1 .2l-2.2 2.2c-2.8-1.4-5.1-3.8-6.6-6.6l2.2-2.2c.3-.3.4-.7.2-1-.3-1.1-.5-2.3-.5-3.5 0-.6-.4-1-1-1H1C.4 0 0 .4 0 1c0 9.4 7.6 17 17 17 .6 0 1-.4 1-1v-3.5c0-.6-.4-1-1-1zM16 9h2c0-5-4-9-9-9v2c3.9 0 7 3.1 7 7zm-4 0h2c0-2.8-2.2-5-5-5v2c1.7 0 3 1.3 3 3z"
+                fill="#FFF"
+                fill-rule="evenodd"
+              />
+            </svg>
+            <a href="tel:3132861653">(+57) 3132861653</a>
+          </div>
+          <div>
+            <svg width="20" height="16" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M18 0H2C.9 0 0 .9 0 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2zm0 14h-2V5.2L10 9 4 5.2V14H2V2h1.2L10 6.2 16.8 2H18v12z"
+                fill="#FFF"
+                fill-rule="evenodd"
+              />
+            </svg>
+            <a href="mailto:pazispeace@outlook.com.com"
+              >pazispeace@outlook.com</a
+            >
+          </div>
+        </address>
+        <ul class="more-about">
+          <li><a href="#about">Acerca</a></li>
+          <li><a href="#portfolio">Proyectos</a></li>
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#testimonials">Testimonios</a></li>
+          <li><a href="#contact">Contacto</a></li>
+          <li><a href="#tech">Tecnologías</a></li>
+        </ul>
+        <ul class="social-media">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/pazispeace/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 3C19.5304 3 20.0391 3.21071 20.4142 3.58579C20.7893 3.96086 21 4.46957 21 5V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H19ZM18.5 18.5V13.2C18.5 12.3354 18.1565 11.5062 17.5452 10.8948C16.9338 10.2835 16.1046 9.94 15.24 9.94C14.39 9.94 13.4 10.46 12.92 11.24V10.13H10.13V18.5H12.92V13.57C12.92 12.8 13.54 12.17 14.31 12.17C14.6813 12.17 15.0374 12.3175 15.2999 12.5801C15.5625 12.8426 15.71 13.1987 15.71 13.57V18.5H18.5ZM6.88 8.56C7.32556 8.56 7.75288 8.383 8.06794 8.06794C8.383 7.75288 8.56 7.32556 8.56 6.88C8.56 5.95 7.81 5.19 6.88 5.19C6.43178 5.19 6.00193 5.36805 5.68499 5.68499C5.36805 6.00193 5.19 6.43178 5.19 6.88C5.19 7.81 5.95 8.56 6.88 8.56ZM8.27 18.5V10.13H5.5V18.5H8.27Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/Pazispeace"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 2C10.6868 2 9.38642 2.25866 8.17317 2.7612C6.95991 3.26375 5.85752 4.00035 4.92893 4.92893C3.05357 6.8043 2 9.34784 2 12C2 16.42 4.87 20.17 8.84 21.5C9.34 21.58 9.5 21.27 9.5 21V19.31C6.73 19.91 6.14 17.97 6.14 17.97C5.68 16.81 5.03 16.5 5.03 16.5C4.12 15.88 5.1 15.9 5.1 15.9C6.1 15.97 6.63 16.93 6.63 16.93C7.5 18.45 8.97 18 9.54 17.76C9.63 17.11 9.89 16.67 10.17 16.42C7.95 16.17 5.62 15.31 5.62 11.5C5.62 10.39 6 9.5 6.65 8.79C6.55 8.54 6.2 7.5 6.75 6.15C6.75 6.15 7.59 5.88 9.5 7.17C10.29 6.95 11.15 6.84 12 6.84C12.85 6.84 13.71 6.95 14.5 7.17C16.41 5.88 17.25 6.15 17.25 6.15C17.8 7.5 17.45 8.54 17.35 8.79C18 9.5 18.38 10.39 18.38 11.5C18.38 15.32 16.04 16.16 13.81 16.41C14.17 16.72 14.5 17.33 14.5 18.26V21C14.5 21.27 14.66 21.59 15.17 21.5C19.14 20.16 22 16.42 22 12C22 10.6868 21.7413 9.38642 21.2388 8.17317C20.7362 6.95991 19.9997 5.85752 19.0711 4.92893C18.1425 4.00035 17.0401 3.26375 15.8268 2.7612C14.6136 2.25866 13.3132 2 12 2Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://twitter.com/pazispeace"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22.46 6C21.69 6.35 20.86 6.58 20 6.69C20.88 6.16 21.56 5.32 21.88 4.31C21.05 4.81 20.13 5.16 19.16 5.36C18.37 4.5 17.26 4 16 4C13.65 4 11.73 5.92 11.73 8.29C11.73 8.63 11.77 8.96 11.84 9.27C8.28004 9.09 5.11004 7.38 3.00004 4.79C2.63004 5.42 2.42004 6.16 2.42004 6.94C2.42004 8.43 3.17004 9.75 4.33004 10.5C3.62004 10.5 2.96004 10.3 2.38004 10V10.03C2.38004 12.11 3.86004 13.85 5.82004 14.24C5.19077 14.4122 4.53013 14.4362 3.89004 14.31C4.16165 15.1625 4.69358 15.9084 5.41106 16.4429C6.12854 16.9775 6.99549 17.2737 7.89004 17.29C6.37367 18.4904 4.49404 19.1393 2.56004 19.13C2.22004 19.13 1.88004 19.11 1.54004 19.07C3.44004 20.29 5.70004 21 8.12004 21C16 21 20.33 14.46 20.33 8.79C20.33 8.6 20.33 8.42 20.32 8.23C21.16 7.63 21.88 6.87 22.46 6Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <small class="text-center text-lg-right"
+          >© Copyright 2023 Luis Paz. All rights reserved.</small
+        >
+      </div>
+    </footer>
+    <script src="main.js" type="module"></script>
+  </body>
 </html>
